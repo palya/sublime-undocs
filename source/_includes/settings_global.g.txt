@@ -1,23 +1,36 @@
 .. This file was generated. Don't edit it.
 
 ``theme``
+
+   +----------+--------+
+   | **Type** | String |
+   +----------+--------+
+   
    Theme to be used.
    Accepts a base name
    for a :file:`.sublime-theme` file
    (for example, :file:`Default.sublime-theme`).
    
-   **Type:** ``String``
    
 ``scroll_speed``
+
+   +----------+---------+
+   | **Type** | Integer |
+   +----------+---------+
+   
    Controls the smooth scrolling feature.
    
    - A value of ``0`` disables smooth scrolling.
    - A value between ``0`` and ``1`` makes scrolling slower.
    - A value larger than ``1`` makes scrolling faster.
    
-   **Type:** ``Integer``
    
 ``hot_exit``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    If ``true``
    and you exit the application
    or active window,
@@ -29,41 +42,61 @@
    will be restored
    the next time Sublime Text starts.
    
-   **Type:** ``Boolean``
    
 ``remember_open_files``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    If ``true``,
    every time you start Sublime Text
    it will reopen the files
    that were open when the application
    was closed the last time.
    
-   **Type:** ``Boolean``
    
 ``open_files_in_new_window``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    **OS X only.**
    If ``true``, a new window is created
    when files are opened from Finder
    or by dragging them onto the dock icon.
    
-   **Type:** ``Boolean``
    
 ``close_windows_when_empty``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    If ``true``
    and no folder is open in the active window,
    close the window
    when the last file is closed.
    
-   **Type:** ``Boolean``
    
 ``show_full_path``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    If ``true``,
    show the active file's
    full path in the title bar.
    
-   **Type:** ``Boolean``
    
 ``preview_on_click``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    If ``true``,
    preview file contents
    when clicking on a file in the side bar.
@@ -74,9 +107,13 @@
    Double-clicking or editing a file in preview
    will open the file in a tab.
    
-   **Type:** ``Boolean``
    
 ``folder_exclude_patterns``
+
+   +----------+-----------+
+   | **Type** | [String,] |
+   +----------+-----------+
+   
    Accepts wildcards.
    Excludes the matching folders in the project
    from the side bar, Goto Anything
@@ -87,9 +124,13 @@
    or in folder items
    in a ``.sublime-project`` file.
    
-   **Type:** ``[String,]``
    
 ``file_exclude_patterns``
+
+   +----------+-----------+
+   | **Type** | [String,] |
+   +----------+-----------+
+   
    Accepts wildcards.
    Excludes the matching files in the project
    from the side bar, Goto Anything
@@ -100,9 +141,13 @@
    or in folder items
    in a ``.sublime-project`` file.
    
-   **Type:** ``[String,]``
    
 ``binary_file_patterns``
+
+   +----------+-----------+
+   | **Type** | [String,] |
+   +----------+-----------+
+   
    Accepts wildcards.
    Excludes the matching files in the project
    from Goto Anything
@@ -114,24 +159,36 @@
    or in folder items
    in a ``.sublime-project`` file.
    
-   **Type:** ``[String,]``
    
 ``show_tab_close_buttons``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    If ``false``,
    hides close buttons in the tab bar
    until you hover the mouse over the tab bar.
    
-   **Type:** ``Boolean``
    
 ``mouse_wheel_switches_tabs``
+
+   +----------+---------+
+   | **Type** | Boolean |
+   +----------+---------+
+   
    If ``true``
    and the cursor is in the tab bar,
    scrolling the mouse wheel
    will switch tabs.
    
-   **Type:** ``Boolean``
    
 ``ignored_packages``
+
+   +----------+-----------+
+   | **Type** | [String,] |
+   +----------+-----------+
+   
    A list of packages
    that Sublime Text will ignore.
    Packages in this list
@@ -145,5 +202,4 @@
    Therefore, after editing this setting,
    you should restart Sublime Text.
    
-   **Type:** ``[String,]``
    
