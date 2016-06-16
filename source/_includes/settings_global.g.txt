@@ -6,6 +6,7 @@
    for a :file:`.sublime-theme` file
    (for example, :file:`Default.sublime-theme`).
    
+   **Type:** ``String``
 ``scroll_speed``
    Controls the smooth scrolling feature.
    
@@ -13,6 +14,7 @@
    - A value between ``0`` and ``1`` makes scrolling slower.
    - A value larger than ``1`` makes scrolling faster.
    
+   **Type:** ``Integer``
 ``hot_exit``
    If ``true``
    and you exit the application
@@ -25,6 +27,7 @@
    will be restored
    the next time Sublime Text starts.
    
+   **Type:** ``Boolean``
 ``remember_open_files``
    If ``true``,
    every time you start Sublime Text
@@ -32,23 +35,27 @@
    that were open when the application
    was closed the last time.
    
+   **Type:** ``Boolean``
 ``open_files_in_new_window``
    **OS X only.**
    If ``true``, a new window is created
    when files are opened from Finder
    or by dragging them onto the dock icon.
    
+   **Type:** ``Boolean``
 ``close_windows_when_empty``
    If ``true``
    and no folder is open in the active window,
    close the window
    when the last file is closed.
    
+   **Type:** ``Boolean``
 ``show_full_path``
    If ``true``,
    show the active file's
    full path in the title bar.
    
+   **Type:** ``Boolean``
 ``preview_on_click``
    If ``true``,
    preview file contents
@@ -60,6 +67,7 @@
    Double-clicking or editing a file in preview
    will open the file in a tab.
    
+   **Type:** ``Boolean``
 ``folder_exclude_patterns``
    Accepts wildcards.
    Excludes the matching folders in the project
@@ -71,6 +79,7 @@
    or in folder items
    in a ``.sublime-project`` file.
    
+   **Type:** ``[String,]``
 ``file_exclude_patterns``
    Accepts wildcards.
    Excludes the matching files in the project
@@ -82,6 +91,7 @@
    or in folder items
    in a ``.sublime-project`` file.
    
+   **Type:** ``[String,]``
 ``binary_file_patterns``
    Accepts wildcards.
    Excludes the matching files in the project
@@ -94,17 +104,20 @@
    or in folder items
    in a ``.sublime-project`` file.
    
+   **Type:** ``[String,]``
 ``show_tab_close_buttons``
    If ``false``,
    hides close buttons in the tab bar
    until you hover the mouse over the tab bar.
    
+   **Type:** ``Boolean``
 ``mouse_wheel_switches_tabs``
    If ``true``
    and the cursor is in the tab bar,
    scrolling the mouse wheel
    will switch tabs.
    
+   **Type:** ``Boolean``
 ``ignored_packages``
    A list of packages
    that Sublime Text will ignore.
@@ -119,3 +132,4 @@
    Therefore, after editing this setting,
    you should restart Sublime Text.
    
+   **Type:** ``[String,]``
