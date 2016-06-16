@@ -6,9 +6,9 @@
 | **Extension** | :file:`.sublime-menu`                |
 +---------------+--------------------------------------+
 | **Name**      | One out of the list of available     |
-|               | menus. See :ref:`menu-types` for the |
-|               | complete name list and what menu     |
-|               | they represent.                      |
+|               | menus. See :ref:`menu-types` for     |
+|               | the complete name list and what      |
+|               | menu they represent.                 |
 +---------------+--------------------------------------+
 | **Location**  | Any under :file:`Packages`           |
 +---------------+--------------------------------------+

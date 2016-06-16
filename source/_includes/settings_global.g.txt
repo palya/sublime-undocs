@@ -1,0 +1,121 @@
+.. This file was generated. Don't edit it.
+
+``theme``
+   Theme to be used.
+   Accepts a base name
+   for a :file:`.sublime-theme` file
+   (for example, :file:`Default.sublime-theme`).
+   
+``scroll_speed``
+   Controls the smooth scrolling feature.
+   
+   - A value of ``0`` disables smooth scrolling.
+   - A value between ``0`` and ``1`` makes scrolling slower.
+   - A value larger than ``1`` makes scrolling faster.
+   
+``hot_exit``
+   If ``true``
+   and you exit the application
+   or active window,
+   Sublime Text will close
+   the application or window
+   without prompting,
+   even if there are unsaved files.
+   Unsaved files and the state of the active project
+   will be restored
+   the next time Sublime Text starts.
+   
+``remember_open_files``
+   If ``true``,
+   every time you start Sublime Text
+   it will reopen the files
+   that were open when the application
+   was closed the last time.
+   
+``open_files_in_new_window``
+   **OS X only.**
+   If ``true``, a new window is created
+   when files are opened from Finder
+   or by dragging them onto the dock icon.
+   
+``close_windows_when_empty``
+   If ``true``
+   and no folder is open in the active window,
+   close the window
+   when the last file is closed.
+   
+``show_full_path``
+   If ``true``,
+   show the active file's
+   full path in the title bar.
+   
+``preview_on_click``
+   If ``true``,
+   preview file contents
+   when clicking on a file in the side bar.
+   Files in preview
+   will be closed automatically
+   as soon as they lose focus
+   (for example, if you press :kbd:`Esc`).
+   Double-clicking or editing a file in preview
+   will open the file in a tab.
+   
+``folder_exclude_patterns``
+   Accepts wildcards.
+   Excludes the matching folders in the project
+   from the side bar, Goto Anything
+   and any project-wide action.
+   
+   This setting must be used
+   in a global :file:`Preferences.sublime-settings` file,
+   or in folder items
+   in a ``.sublime-project`` file.
+   
+``file_exclude_patterns``
+   Accepts wildcards.
+   Excludes the matching files in the project
+   from the side bar, Goto Anything
+   and any project-wide action.
+   
+   This setting must be used
+   in a global :file:`Preferences.sublime-settings` file,
+   or in folder items
+   in a ``.sublime-project`` file.
+   
+``binary_file_patterns``
+   Accepts wildcards.
+   Excludes the matching files in the project
+   from Goto Anything
+   and any project-wide action,
+   but not the side bar.
+   
+   This setting must be used
+   in a global :file:`Preferences.sublime-settings` file,
+   or in folder items
+   in a ``.sublime-project`` file.
+   
+``show_tab_close_buttons``
+   If ``false``,
+   hides close buttons in the tab bar
+   until you hover the mouse over the tab bar.
+   
+``mouse_wheel_switches_tabs``
+   If ``true``
+   and the cursor is in the tab bar,
+   scrolling the mouse wheel
+   will switch tabs.
+   
+``ignored_packages``
+   A list of packages
+   that Sublime Text will ignore.
+   Packages in this list
+   will be disabled until
+   you remove them from the list.
+   
+   Some packages
+   may not respond gracefully
+   to being disabled/enabled
+   via this setting.
+   Therefore, after editing this setting,
+   you should restart Sublime Text.
+   
